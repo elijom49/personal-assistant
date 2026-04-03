@@ -1,0 +1,46 @@
+{
+  "jobs": [
+    {
+      "name": "morning-briefing",
+      "prompt": "Run daily task prep",
+      "schedule": "0 8 * * 1-5",
+      "skill": "daily-task-prep",
+      "description": "Weekday morning briefing at 8am"
+    },
+    {
+      "name": "heartbeat",
+      "prompt": "Run heartbeat check",
+      "schedule": "0 12 * * 1-5",
+      "skill": "executive-assistant",
+      "description": "Midday pulse check"
+    },
+    {
+      "name": "meeting-prep-trigger",
+      "prompt": "Check calendar for meetings in the next 45 minutes and run meeting prep for any external ones",
+      "schedule": "*/30 * * * 1-5",
+      "skill": "meeting-prep",
+      "description": "Runs every 30 min on weekdays"
+    },
+    {
+      "name": "weekly-project-review",
+      "prompt": "Run weekly project review",
+      "schedule": "0 16 * * 5",
+      "skill": "project-tracker",
+      "description": "Friday 4pm weekly review"
+    },
+    {
+      "name": "habit-check",
+      "prompt": "Check if today's habits have been logged. If not, remind me.",
+      "schedule": "0 21 * * *",
+      "skill": "personal-assistant",
+      "description": "Nightly habit reminder at 9pm"
+    },
+    {
+      "name": "reminder-scan",
+      "prompt": "Scan reminders/active.md for anything due today or tomorrow",
+      "schedule": "0 9 * * *",
+      "skill": "personal-assistant",
+      "description": "Daily 9am reminder scan"
+    }
+  ]
+}
