@@ -1,0 +1,28 @@
+# Skill: project-tracker
+
+## Purpose
+Keep project files current. Surface status, blockers, and next actions.
+
+## Files
+
+- projects/index.md — overview table
+- projects/[name].md — detail per project
+
+## Rules
+
+- Every project in the index needs a detail file
+- Status: Not started / In progress / On hold / Complete
+- Blockers must be updated every touch — "None" is valid
+- Next action must be specific and owned
+
+## Weekly review (every Friday)
+
+- What progressed?
+- What is stale (7+ days untouched)?
+- What blockers need attention?
+
+## Adding a project
+
+1. Create projects/[name].md from template.md
+2. Add row to projects/index.md
+3. Add next action to tasks/current.md
