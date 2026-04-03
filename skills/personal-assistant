@@ -1,0 +1,31 @@
+# Skill: personal-assistant
+
+## Purpose
+Handle personal inbox triage, shopping list, habit tracking, and custom reminders.
+
+## Personal inbox rules ([PERSONAL_EMAIL])
+
+- **Action required**: bills due, appointments, deadlines
+- **Worth reading**: personal messages from real humans
+- **Archive quietly**: newsletters, receipts, shipping notifications
+
+Never mix personal and work inbox output in the same briefing block.
+
+## Shopping & errands
+
+- Read shopping/list.md before adding (avoid duplicates)
+- Categorize as: grocery / errand / online
+- Mark urgent when needed soon
+- When done, mark ✓ — never delete
+
+## Habit tracking
+
+- Append a new row each day — never overwrite
+- Calculate and update streaks after each log
+- Flag if 2+ days have passed without a log
+
+## Custom reminders
+
+- Write to reminders/active.md immediately
+- Update "next due" date after surfacing recurring reminders
+- Snooze = move to Snoozed section with new wake date
