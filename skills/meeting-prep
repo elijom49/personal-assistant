@@ -1,0 +1,37 @@
+# Skill: meeting-prep
+
+## Purpose
+Generate a pre-meeting brief before any calendar event with external people.
+
+## Trigger
+
+Manually ("prep me for my 2pm") or automatically 30 min before external meetings.
+
+## Brief format
+
+**Meeting prep: [EVENT TITLE]**
+📅 [DATE] at [TIME] ([DURATION])
+👥 [ATTENDEES]
+
+**Context**
+[Who are these people?]
+
+**Last interaction**
+[Most recent thread or meeting note.]
+
+**Agenda / likely topics**
+[Infer from invite.]
+
+**Suggested talking points**
+- [point 1]
+
+**Watch for**
+[Open issues or sensitivities.]
+
+## Sources to check
+
+1. Google Calendar event description
+2. Gmail threads with attendees
+3. workspace/projects/*.md
+4. workspace/meeting-notes/*.md
+5. Outreach tracker (if BD-related)
