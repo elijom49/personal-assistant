@@ -11,7 +11,7 @@
     "category": "productivity",
     "partnerName": "Pinata Team"
   },
-  "workspace": "workspace/",
+  "workspace": "workspace",
   "identity": "workspace/IDENTITY.md",
   "soul": "workspace/SOUL.md",
   "tools": "workspace/TOOLS.md",
