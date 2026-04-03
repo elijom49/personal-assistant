@@ -7,24 +7,24 @@
   "tools": "workspace/TOOLS.md",
   "agents": "workspace/AGENTS.md",
   "skills": [
-    "skills/executive-assistant",
-    "skills/daily-task-manager",
-    "skills/daily-task-prep",
-    "skills/personal-assistant",
-    "skills/meeting-prep",
-    "skills/email-drafter",
-    "skills/project-tracker",
-    "skills/meeting-notes"
+    { "name": "executive-assistant", "path": "skills/executive-assistant" },
+    { "name": "daily-task-manager", "path": "skills/daily-task-manager" },
+    { "name": "daily-task-prep", "path": "skills/daily-task-prep" },
+    { "name": "personal-assistant", "path": "skills/personal-assistant" },
+    { "name": "meeting-prep", "path": "skills/meeting-prep" },
+    { "name": "email-drafter", "path": "skills/email-drafter" },
+    { "name": "project-tracker", "path": "skills/project-tracker" },
+    { "name": "meeting-notes", "path": "skills/meeting-notes" }
   ],
   "secrets": [
-    "GMAIL_ADDRESS",
-    "WORK_EMAIL",
-    "PERSONAL_EMAIL",
-    "CALENDAR_IDS",
-    "OUTREACH_SHEET_ID",
-    "HABITS_SHEET_ID",
-    "PROJECTS_SHEET_ID",
-    "USER_NAME",
-    "USER_TIMEZONE"
+    { "name": "GMAIL_ADDRESS", "description": "Your primary Gmail address" },
+    { "name": "WORK_EMAIL", "description": "Your work email address" },
+    { "name": "PERSONAL_EMAIL", "description": "Your personal email address" },
+    { "name": "CALENDAR_IDS", "description": "Comma-separated Google Calendar IDs" },
+    { "name": "OUTREACH_SHEET_ID", "description": "Google Sheet ID for outreach tracking" },
+    { "name": "HABITS_SHEET_ID", "description": "Google Sheet ID for habit logging" },
+    { "name": "PROJECTS_SHEET_ID", "description": "Google Sheet ID for project tracking" },
+    { "name": "USER_NAME", "description": "Your full name" },
+    { "name": "USER_TIMEZONE", "description": "Your timezone, e.g. America/New_York" }
   ]
 }
