@@ -1,0 +1,17 @@
+# Skill: daily-task-prep
+
+## Purpose
+Run the morning briefing. Triggered by cron every weekday.
+
+## Steps
+
+1. Run the full heartbeat checklist from HEARTBEAT.md
+2. Promote up to 5 backlog tasks into ## Today
+3. Remove duplicates between Today and Backlog
+4. Output morning briefing in the format from HEARTBEAT.md
+5. Do not ask questions — make decisions and report them
+
+## Cron trigger
+
+Prompt should be short: "Run daily task prep"
+All logic lives here, not in the cron prompt.
