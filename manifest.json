@@ -2,6 +2,15 @@
   "name": "personal-assistant",
   "version": 1,
   "description": "A personal + professional assistant that manages your inbox, calendar, tasks, habits, shopping, projects, and more.",
+  "agent": {
+    "name": "Personal Assistant",
+    "description": "A personal + professional AI assistant that manages your inbox, calendar, tasks, projects, habits, shopping, and reminders — for both work and personal life."
+  },
+  "template": {
+    "slug": "personal-assistant",
+    "category": "productivity",
+    "partnerName": "Pinata Team"
+  },
   "identity": "workspace/IDENTITY.md",
   "soul": "workspace/SOUL.md",
   "tools": "workspace/TOOLS.md",
