@@ -1,0 +1,30 @@
+{
+  "name": "personal-assistant",
+  "version": "1.0.0",
+  "description": "A personal + professional assistant that manages your inbox, calendar, tasks, habits, shopping, projects, and more.",
+  "identity": "workspace/IDENTITY.md",
+  "soul": "workspace/SOUL.md",
+  "tools": "workspace/TOOLS.md",
+  "agents": "workspace/AGENTS.md",
+  "skills": [
+    "skills/executive-assistant",
+    "skills/daily-task-manager",
+    "skills/daily-task-prep",
+    "skills/personal-assistant",
+    "skills/meeting-prep",
+    "skills/email-drafter",
+    "skills/project-tracker",
+    "skills/meeting-notes"
+  ],
+  "secrets": [
+    "GMAIL_ADDRESS",
+    "WORK_EMAIL",
+    "PERSONAL_EMAIL",
+    "CALENDAR_IDS",
+    "OUTREACH_SHEET_ID",
+    "HABITS_SHEET_ID",
+    "PROJECTS_SHEET_ID",
+    "USER_NAME",
+    "USER_TIMEZONE"
+  ]
+}
