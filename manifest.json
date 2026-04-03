@@ -6,16 +6,6 @@
   "soul": "workspace/SOUL.md",
   "tools": "workspace/TOOLS.md",
   "agents": "workspace/AGENTS.md",
-  "skills": [
-    { "name": "executive-assistant", "path": "skills/executive-assistant" },
-    { "name": "daily-task-manager", "path": "skills/daily-task-manager" },
-    { "name": "daily-task-prep", "path": "skills/daily-task-prep" },
-    { "name": "personal-assistant", "path": "skills/personal-assistant" },
-    { "name": "meeting-prep", "path": "skills/meeting-prep" },
-    { "name": "email-drafter", "path": "skills/email-drafter" },
-    { "name": "project-tracker", "path": "skills/project-tracker" },
-    { "name": "meeting-notes", "path": "skills/meeting-notes" }
-  ],
   "secrets": [
     { "name": "GMAIL_ADDRESS", "description": "Your primary Gmail address" },
     { "name": "WORK_EMAIL", "description": "Your work email address" },
