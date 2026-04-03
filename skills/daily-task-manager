@@ -1,0 +1,18 @@
+# Skill: daily-task-manager
+
+## Purpose
+Maintain one canonical task list. No duplicates. No stale items.
+
+## Rules
+
+- One task file only: tasks/current.md
+- Tasks in ## Today are the only things [USER_NAME] should focus on
+- Promote from Backlog to Today during morning prep only
+- When done, mark ✓ and move to a done section
+- Flag any task in ## Today for 3+ days without progress
+
+## Adding tasks
+
+Check for duplicates first. Update existing tasks rather than create duplicates.
+
+Format: `- [ ] [task] — [context or deadline]`
